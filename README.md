@@ -1,0 +1,7 @@
+# Keyword-based Processing for Assessing Short Answers in the Educational Field
+
+In this repository the different programs designed and built to carry out the work Keyword-based Processing for Assessing Short Answers in the Educational Field are uploaded (that is, a continuation of Javier’s final project in his Master's Degree in Artificial Intelligence (UNIR)). The jupyter notebook files will be found in the main repository. Two folders will be created (with the same name as the corresponding jupyter file) in which the necessary information for executing the program will be collected (input folder), in addition to the information generated from it (output folder). In this way, some files from the output "HMM" folder will also be incorporated into the "KeywordIdentification" input folder, despite being identic, to facilitate the use of these programs.
+
+If running both programs without considering the attached files, you will need to use the "Wikicorpus" folder, which is found in the "Corpus" folder. From this collection of annotated texts (corpus), both the necessary probabilistic tables and the dictionary of lemmas can be generated with "HMM_code" as input in "KeywordIdentification_code". To run this program ("KeywordIdentification_code"), you also need the file that collects the exam information (Dataset folder). 
+
+Finally, the given output files correspond to the processing of one of the three datasets: "metodos-de-captura-conNota-Anon".
